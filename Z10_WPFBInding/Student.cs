@@ -31,23 +31,23 @@ namespace Z10_WPFBInding
                     new Student
                     {
                         Id = 1,
-                        Name = "Jan",
-                        LastName = "Kowalski",
+                        Name = "Szymon",
+                        LastName = "Magiera",
                         Enlisting = DateTime.Now
                     },
                     new Student
                     {
                         Id = 1,
                         Name = "Marek",
-                        LastName = "Nowak",
-                        Enlisting = new DateTime(2002, 1, 2)
+                        LastName = "Kowalski",
+                        Enlisting = new DateTime(2007, 8, 2)
                     },
                     new Student
                     {
                         Id = 1,
-                        Name = "Piotr",
-                        LastName = "Kwiatkowski",
-                        Enlisting = new DateTime(2013, 3, 3)
+                        Name = "Jan",
+                        LastName = "Nowakowski",
+                        Enlisting = new DateTime(1988, 6, 1)
                     }
                 }
             };
