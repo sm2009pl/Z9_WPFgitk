@@ -7,16 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Margin="0,0,0,0">
-        <TextBox HorizontalAlignment="Left" Height="25" Margin="460,10,0,0" TextWrapping="Wrap" Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}"  VerticalAlignment="Top" Width="130"/>
-        <TextBox HorizontalAlignment="Left" Height="25" Margin="320,10,0,0" TextWrapping="Wrap" Text="{Binding LastName}" VerticalAlignment="Top" Width="130"/>
-        <TextBox HorizontalAlignment="Left" Height="25" Margin="600,10,0,0" TextWrapping="Wrap" Text="{Binding Entlisting}" VerticalAlignment="Top" Width="180"/>
-        <TextBox HorizontalAlignment="Left" Height="25" Margin="320,50,0,0" TextWrapping="Wrap" Text="{Binding FullName, Mode=OneWay}" VerticalAlignment="Top" Width="270"/>
-        <Calendar HorizontalAlignment="Left" Margin="320,90,0,0" VerticalAlignment="Top" DisplayDate="{Binding Entlisting}" SelectedDate="{Binding Entlisting}"/>
-        <ListView ItemsSource="{Binding List.students}" x:Name="StudentList" HorizontalAlignment="Left" Height="180" Margin="10,10,0,0" VerticalAlignment="Top" Width="300">
+        <TextBox x:Name="name" HorizontalAlignment="Left" Height="25" Margin="460,10,0,0" TextWrapping="Wrap" Text="{Binding SelectedItem.Name, ElementName=StudentList}"   VerticalAlignment="Top" Width="130"/>
+        <TextBox x:Name="lastName" HorizontalAlignment="Left" Height="25" Margin="320,10,0,0" TextWrapping="Wrap" Text="{Binding SelectedItem.LastName, ElementName=StudentList}" VerticalAlignment="Top" Width="130"/>
+        <TextBox x:Name="enlisting" HorizontalAlignment="Left" Height="25" Margin="600,10,0,0" TextWrapping="Wrap" Text="{Binding SelectedItem.Enlisting, ElementName=StudentList}" VerticalAlignment="Top" Width="180"/>
+        <TextBox x:Name="fullName" HorizontalAlignment="Left" Height="25" Margin="320,50,0,0" TextWrapping="Wrap" Text="{Binding SelectedItem.FullName, ElementName=StudentList, Mode=OneWay}" VerticalAlignment="Top" Width="270"/>
+        <Calendar HorizontalAlignment="Left" Margin="320,90,0,0" VerticalAlignment="Top" DisplayDate="{Binding SelectedItem.Enlisting, ElementName=StudentList}" SelectedDate="{Binding SelectedItem.Enlisting, ElementName=StudentList}"/>
+        <ListView ItemsSource="{Binding List.students}" x:Name="StudentList" HorizontalAlignment="Left" Height="180" Margin="10,10,0,0" VerticalAlignment="Top" Width="300" SelectionChanged="StudentList_SelectionChanged">
             <ListView.View>
-                <GridView>
-                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}" />
-                    <GridViewColumn Header="Last Name" DisplayMemberBinding="{Binding LastName}" />
+                <GridView x:Name="grid">
+                    <GridViewColumn x:Name="prop1" Header="Name" DisplayMemberBinding="{Binding Name}" />
+                    <GridViewColumn x:Name="prop2" Header="Last Name" DisplayMemberBinding="{Binding LastName}" />
+                    <GridViewColumn x:Name="prop3" Header="Date" DisplayMemberBinding="{Binding Enlisting}" />
                 </GridView>
             </ListView.View>
         </ListView>

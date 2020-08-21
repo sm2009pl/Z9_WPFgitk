@@ -29,5 +29,9 @@ namespace Z10_WPFBInding
             this.DataContext = view;
             ListBox.ItemsSource = view.List.students;
         }
+
+        private void StudentList_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+        }
     }
 }

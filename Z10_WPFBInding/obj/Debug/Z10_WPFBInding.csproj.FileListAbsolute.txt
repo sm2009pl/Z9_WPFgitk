@@ -1,0 +1,15 @@
+C:\Users\Intel\Desktop\Programowanie projekt\Z9_WPFgit\Z10_WPFBInding\bin\Debug\Z10_WPFBInding.exe.config
+C:\Users\Intel\Desktop\Programowanie projekt\Z9_WPFgit\Z10_WPFBInding\bin\Debug\Z10_WPFBInding.exe
+C:\Users\Intel\Desktop\Programowanie projekt\Z9_WPFgit\Z10_WPFBInding\bin\Debug\Z10_WPFBInding.pdb
+C:\Users\Intel\Desktop\Programowanie projekt\Z9_WPFgit\Z10_WPFBInding\obj\Debug\Z10_WPFBInding.csprojAssemblyReference.cache
+C:\Users\Intel\Desktop\Programowanie projekt\Z9_WPFgit\Z10_WPFBInding\obj\Debug\MainWindow.g.cs
+C:\Users\Intel\Desktop\Programowanie projekt\Z9_WPFgit\Z10_WPFBInding\obj\Debug\App.g.cs
+C:\Users\Intel\Desktop\Programowanie projekt\Z9_WPFgit\Z10_WPFBInding\obj\Debug\Z10_WPFBInding_MarkupCompile.cache
+C:\Users\Intel\Desktop\Programowanie projekt\Z9_WPFgit\Z10_WPFBInding\obj\Debug\Z10_WPFBInding_MarkupCompile.lref
+C:\Users\Intel\Desktop\Programowanie projekt\Z9_WPFgit\Z10_WPFBInding\obj\Debug\MainWindow.baml
+C:\Users\Intel\Desktop\Programowanie projekt\Z9_WPFgit\Z10_WPFBInding\obj\Debug\Z10_WPFBInding.g.resources
+C:\Users\Intel\Desktop\Programowanie projekt\Z9_WPFgit\Z10_WPFBInding\obj\Debug\Z10_WPFBInding.Properties.Resources.resources
+C:\Users\Intel\Desktop\Programowanie projekt\Z9_WPFgit\Z10_WPFBInding\obj\Debug\Z10_WPFBInding.csproj.GenerateResource.cache
+C:\Users\Intel\Desktop\Programowanie projekt\Z9_WPFgit\Z10_WPFBInding\obj\Debug\Z10_WPFBInding.csproj.CoreCompileInputs.cache
+C:\Users\Intel\Desktop\Programowanie projekt\Z9_WPFgit\Z10_WPFBInding\obj\Debug\Z10_WPFBInding.exe
+C:\Users\Intel\Desktop\Programowanie projekt\Z9_WPFgit\Z10_WPFBInding\obj\Debug\Z10_WPFBInding.pdb

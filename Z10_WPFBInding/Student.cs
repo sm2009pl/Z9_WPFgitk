@@ -14,7 +14,10 @@ namespace Z10_WPFBInding
         public string LastName { get; set; }
         public string FullName => Name + LastName;
         public DateTime Enlisting { get; set; }
-
+        public override string ToString()
+        {
+            return FullName;
+        }
 
     }
 
@@ -57,6 +60,6 @@ namespace Z10_WPFBInding
 
     public class StudenList
     {
-        public ObservableCollection<Student> students { get; set; }
+        public ObservableCollection<Student> students { get; set; } = new ObservableCollection<Student>();
     }
 }
